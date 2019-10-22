@@ -74,6 +74,7 @@ public class Calculator extends AddingMachine {
 	}
 	  
 	public void divide (int value) {
+		
 		if(value == 0) {
 			
 			total = 0;
@@ -88,6 +89,7 @@ public class Calculator extends AddingMachine {
 	}
 	
 	public void Power (int value) {
+		
 		if(value < 0) {
 			
 			total = 0;
